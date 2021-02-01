@@ -24,6 +24,7 @@ h2 {
    padding: 20px;
    display: block;
    justify-content: center;
+   margin: 0 auto;
 }
 
 .cadre1 .wrap {
@@ -62,9 +63,12 @@ p:first-child {
    font-size: 35px;
 }
 
-footer {
+.footer {
    height: 50px;
    width: 100%;
-   position: relative;
+   position: absolute;
    background-color: rgb(65, 64, 64);
+   color: #fff;
+   font-size: 25px;
+   justify-content: center;
 }
