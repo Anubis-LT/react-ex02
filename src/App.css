@@ -5,12 +5,10 @@
 
 .header {
    line-height: 70px;
-   background-color: #000000;
+   background-color: rgb(65, 64, 64);
    color: #fff;
    display: flex;
    justify-content: center;
-   border: 5 px;
-   border-color: aqua;
 }
 h2 {
    font-size: 30px;
@@ -22,7 +20,6 @@ h2 {
    display: flex;
    flex: 1;
    padding: 20px;
-   display: block;
    justify-content: center;
    margin: 0 auto;
 }
@@ -63,12 +60,14 @@ p:first-child {
    font-size: 35px;
 }
 
-.footer {
+footer {
    height: 50px;
-   width: 100%;
+   width: 1370px;
    position: absolute;
    background-color: rgb(65, 64, 64);
    color: #fff;
    font-size: 25px;
+   display: flex;
    justify-content: center;
+   align-items: center;
 }
